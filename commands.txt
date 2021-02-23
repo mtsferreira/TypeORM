@@ -1,0 +1,5 @@
+yarn typeorm migration:create -n <nomeDaTabela> -- cria uma migração
+
+yarn typeorm migration:run -- rooda a migração
+
+yarn typeorm migration:revert --desfaz a ultima migração rodada
